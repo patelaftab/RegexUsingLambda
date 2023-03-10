@@ -16,6 +16,7 @@ namespace UserREgistrationUsingLamda
             userRegisterLambda.CheckEmail("abc.xyz@bl.co.in");
             userRegisterLambda.CheckPhoneNumber("91 9113873015");
             userRegisterLambda.CheckPasswordPattern1("aftabpatel");
+            userRegisterLambda.CheckPasswordPattern2("Aftabpatel");
             Console.ReadLine();
         }
     }
