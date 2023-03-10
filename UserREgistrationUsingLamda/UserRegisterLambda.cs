@@ -91,5 +91,16 @@ namespace UserREgistrationUsingLamda
                 Console.WriteLine("Not a Valid Pattern");
             }
         }
+        public void CheckPasswordPattern4(string pattern)
+        {
+            if (modelClasses.Any(x => x.Pattern4.IsMatch(pattern)))
+            {
+                Console.WriteLine("Regex Pattern For Password Rule-4 is Valid");
+            }
+            else
+            {
+                Console.WriteLine("Not a Valid Pattern");
+            }
+        }
     }
 }

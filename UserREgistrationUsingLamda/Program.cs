@@ -18,6 +18,7 @@ namespace UserREgistrationUsingLamda
             userRegisterLambda.CheckPasswordPattern1("aftabpatel");
             userRegisterLambda.CheckPasswordPattern2("Aftabpatel");
             userRegisterLambda.CheckPasswordPattern3("Aftabpatel1");
+            userRegisterLambda.CheckPasswordPattern4("Aftabpatel@1");
             Console.ReadLine();
         }
     }
