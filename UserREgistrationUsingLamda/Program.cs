@@ -12,7 +12,9 @@ namespace UserREgistrationUsingLamda
         {
             UserRegisterLambda userRegisterLambda = new UserRegisterLambda();
             userRegisterLambda.CheckFirstNmae("Aftab");
-            userRegisterLambda.CheckFirstNmae("Patel");
+            userRegisterLambda.CheckLastNmae("Patel");
+            userRegisterLambda.CheckEmail("abc.xyz@bl.co.in");
+            userRegisterLambda.CheckEmail("91 9113873015");
             Console.ReadLine();
         }
     }
