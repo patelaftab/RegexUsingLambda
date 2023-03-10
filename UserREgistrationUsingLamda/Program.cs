@@ -14,7 +14,8 @@ namespace UserREgistrationUsingLamda
             userRegisterLambda.CheckFirstNmae("Aftab");
             userRegisterLambda.CheckLastNmae("Patel");
             userRegisterLambda.CheckEmail("abc.xyz@bl.co.in");
-            userRegisterLambda.CheckEmail("91 9113873015");
+            userRegisterLambda.CheckPhoneNumber("91 9113873015");
+            userRegisterLambda.CheckPasswordPattern1("aftabpatel");
             Console.ReadLine();
         }
     }
