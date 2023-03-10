@@ -47,6 +47,16 @@ namespace UserREgistrationUsingLamda
                 Console.WriteLine("Not a Valid Pattern");
             }
         }
-       
+        public void CheckPhoneNumber(string phonenumber)
+        {
+            if (modelClasses.Any(x => x.PhoneNumber.IsMatch(phonenumber)))
+            {
+                Console.WriteLine("Regex Pattern For Phone Number is Valid");
+            }
+            else
+            {
+                Console.WriteLine("Not a Valid Pattern");
+            }
+        }
     }
 }
