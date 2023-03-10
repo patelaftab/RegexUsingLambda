@@ -15,6 +15,7 @@ namespace UserREgistrationUsingLamda
         public Regex PhoneNumber = new Regex(@"[0-9]{1,2}[ ][0-9]{10}");
         public Regex Pattern1 = new Regex(@"[A-Z a-z 0-9]{8,}");
         public Regex Pattern2 = new Regex(@"(?=.*[A-Z])[A-Za-z0-9]{8,}");
+        public Regex Pattern3 = new Regex(@"(?=.*[A-Z])(?=.*[0-9])[A-Za-z0-9]{8,}");
         
     }
 }
