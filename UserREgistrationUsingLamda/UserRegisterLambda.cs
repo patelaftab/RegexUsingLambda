@@ -25,5 +25,16 @@ namespace UserREgistrationUsingLamda
                 Console.WriteLine("Not a VAlid Pattern");
             }
         }
+        public void CheckLastNmae(string lastname)
+        {
+            if (modelClasses.Any(x => x.firstName.IsMatch(lastname)))
+            {
+                Console.WriteLine("Pattern For Last Name is Valid");
+            }
+            else
+            {
+                Console.WriteLine("Not a VAlid Pattern");
+            }
+        }
     }
 }

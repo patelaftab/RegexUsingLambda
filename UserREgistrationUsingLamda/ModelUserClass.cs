@@ -10,6 +10,7 @@ namespace UserREgistrationUsingLamda
     public class ModelUserClass
     {
         public Regex firstName = new Regex(@"^[A-Z][a-z]{3,}?");
+        public Regex lastname = new Regex(@"^[A-Z][a-z]{3,}?");
         
     }
 }

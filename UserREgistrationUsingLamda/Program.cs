@@ -12,6 +12,7 @@ namespace UserREgistrationUsingLamda
         {
             UserRegisterLambda userRegisterLambda = new UserRegisterLambda();
             userRegisterLambda.CheckFirstNmae("Aftab");
+            userRegisterLambda.CheckFirstNmae("Patel");
             Console.ReadLine();
         }
     }
